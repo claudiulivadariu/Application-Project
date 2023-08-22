@@ -1,7 +1,5 @@
 # Next Logic Project - Highschools manangement.
 
-**Project Description**: A brief description of my little project in Angular.js + Nest.js.
-
 ## Table of Contents
 
 1. [Features](#features)
