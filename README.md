@@ -5,7 +5,8 @@
 1. [Features](#features)
 2. [Prerequisites](#prerequisites)
 3. [Installation](#installation)
-4. [Usage](#usage)
+4. [Technologies](#technologies)
+5. [Usage](#usage)
 
 
 ## Features
@@ -40,6 +41,20 @@ Backend features not implemented in front yet:
    cd front-end
    npm install
    ```
+
+## Technologies
+
+# Technologies Used
+
+List of technologies and tools used in this project:
+
+- [Node.js](https://nodejs.org/)
+- [NestJS](https://nestjs.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TypeORM](https://typeorm.io/)
+- [Angular](https://angular.io/)
+- [Angular Material](https://material.angular.io/)
+- [SQLite](https://www.sqlite.org/)
 
 ## Usage
 
