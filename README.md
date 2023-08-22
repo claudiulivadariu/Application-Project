@@ -45,8 +45,6 @@ Backend features not implemented in front yet:
 
 ## Usage
 
-Explain how to use your project once it's set up. Include:
-
    To start front-end, in the /front-end:
    ```console
    ng serve
