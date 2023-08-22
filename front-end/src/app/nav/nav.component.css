@@ -1,0 +1,19 @@
+mat-toolbar-row {
+    display: flex;
+    justify-content: end;
+    margin-left: -30px;
+    color: #ffffff;
+}
+
+.custom-router-link {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: color 0.1s ease;
+}
+
+.custom-router-link:hover {
+    color: #2c353b;
+}

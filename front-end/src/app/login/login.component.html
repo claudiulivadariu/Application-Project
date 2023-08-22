@@ -1,0 +1,18 @@
+<div class="style-form">
+    <h2>Next Logic Project</h2>
+    <form [formGroup] = "form" (submit)="onSubmit()">
+        <p>
+            <mat-form-field class="example-full-width">
+                <mat-label>Username</mat-label>
+                <input matInput type="text" id="username" formControlName="username" required>
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field class="example-full-width">
+                <mat-label>Password</mat-label>
+                <input matInput type="password" id="password" formControlName="password" required>
+            </mat-form-field>
+        </p>
+        <button class= "button" type="submit">Login</button>
+    </form>
+</div>

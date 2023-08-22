@@ -1,0 +1,33 @@
+<div class="div-body">
+    <h1 style="text-align: center;">List of all grades:</h1>
+    <div class="style-table">
+        <table mat-table [dataSource]="grades">
+            <ng-container matColumnDef="id">
+                <th mat-header-cell *matHeaderCellDef> Grade Id </th>
+                <td mat-cell *matCellDef="let gradeX"> {{ gradeX.id }} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="subject">
+                <th mat-header-cell *matHeaderCellDef> Subject </th>
+                <td mat-cell *matCellDef="let gradeX"> {{ gradeX.subject }} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="student">
+                <th mat-header-cell *matHeaderCellDef> Student Name </th>
+                <td mat-cell *matCellDef="let gradeX"> {{ gradeX.student?.name }} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="studentHighschool">
+                <th mat-header-cell *matHeaderCellDef> Student Highschool </th>
+                <td mat-cell *matCellDef="let gradeX"> {{ gradeX.student?.highSchool?.name }} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="gradeValue">
+                <th mat-header-cell *matHeaderCellDef> Value </th>
+                <td mat-cell *matCellDef="let gradeX"> {{ gradeX.grade }} </td>
+            </ng-container>
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+    </div>
+</div>

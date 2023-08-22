@@ -1,0 +1,27 @@
+<div class="style-form">
+    <form [formGroup] = "form" (submit)="onSubmit(form.value.studentHighSchool)" id="deleteForm">
+        <p>
+            <mat-form-field class="example-full-width">
+                <mat-label>Student Name:</mat-label>
+                <input matInput type="text" id="studentName" formControlName="studentName" required>
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field class="example-full-width">
+                <mat-label>Student Class</mat-label>
+                <input matInput type="text" id="studentClass" formControlName="studentClass" required>
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field>
+                <mat-label>Highschools:</mat-label>
+                <mat-select formControlName = "studentHighSchool">
+                  <mat-option *ngFor="let highSchool of highSchools" [value] = "highSchool.name">
+                    {{highSchool.name}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+        </p>
+        <button class= "button" type="submit">Submit</button>
+    </form>
+</div>

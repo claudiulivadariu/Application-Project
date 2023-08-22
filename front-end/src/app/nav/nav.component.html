@@ -1,0 +1,28 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <div class="float-toolbar" *ngIf="!authenticated">
+            <a routerLink="/login" class="custom-router-link">Login</a>
+            <a routerLink="/register" class="custom-router-link">Register</a>
+        </div>
+        <div class="float-toolbar" *ngIf="authenticated">
+            <mat-menu #infoMenu="matMenu">
+                <button mat-menu-item routerLink="/best-student">Best Student based on Subject</button>
+            </mat-menu>
+            <button mat-button [matMenuTriggerFor]="infoMenu">Infos</button>
+            <mat-menu #studentMenu="matMenu">
+                <button mat-menu-item routerLink="/add-student">Add Student</button>
+                <button mat-menu-item routerLink="/home">See Students</button>
+                <button mat-menu-item routerLink="/delete-student">Delete Students</button>
+            </mat-menu>
+            <button mat-button [matMenuTriggerFor]="studentMenu">Students</button>
+            <mat-menu #gradesMenu="matMenu">
+                <button mat-menu-item routerLink="/add-grade">Add Grade</button>
+                <button mat-menu-item routerLink="/grades">View Grade</button>
+                <button mat-menu-item routerLink="/update-grade">Update Grade</button>
+            </mat-menu>
+            <button mat-button [matMenuTriggerFor]="gradesMenu">Grades</button>
+            <a class="custom-router-link" (click)="logout()">Logout</a>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+

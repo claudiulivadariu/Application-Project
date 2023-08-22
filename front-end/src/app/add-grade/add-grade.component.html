@@ -1,0 +1,23 @@
+<div class="style-form">
+    <form [formGroup] = "form" (submit)="onSubmit()">
+        <p>
+            <mat-form-field class="example-full-width">
+                <mat-label>Student Id:</mat-label>
+                <input matInput type="number" id="studentId" formControlName="studentId" required>
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label>Grade:</mat-label>
+                <input matInput type="number" id="gradeValue" formControlName="gradeValue" required>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Subject:</mat-label>
+                <mat-select formControlName = "gradeSubject">
+                  <mat-option *ngFor="let subject of subjects" [value] = "subject.name">
+                    {{subject.name}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+        </p>
+        <button class= "button" type="submit">Submit</button>
+    </form>
+</div>

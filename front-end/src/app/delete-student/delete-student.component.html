@@ -1,0 +1,11 @@
+<div class="style-form">
+    <form [formGroup] = "form" (submit)="onSubmit(form.value.studentId)">
+        <p>
+            <mat-form-field class="example-full-width">
+                <mat-label>Student Id:</mat-label>
+                <input matInput type="number" id="studentId" formControlName="studentId" required>
+            </mat-form-field>
+        </p>
+        <button class= "button" type="submit">Submit</button>
+    </form>
+</div>
