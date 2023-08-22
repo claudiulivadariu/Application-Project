@@ -23,7 +23,7 @@ Backend features not implemented in front yet:
 ## Prerequisites
 
 1. **Node.js and npm**
-2. **Angular CLI**: To work with Angular.js, you'll need the Angular CLI. Install it globally using npm:
+2. **Angular CLI**
 
 ## Installation
 
