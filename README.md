@@ -30,7 +30,8 @@ Backend features not implemented in front yet:
 1. Clone the repository.
    ```console
    git clone https://github.com/claudiulivadariu/TestRepo
-   cd <project-directory>```
+   cd <project-directory>
+   ```
 3. Installing dependencies.
    ```console
    cd school
