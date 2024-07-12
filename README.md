@@ -12,10 +12,10 @@
 ## Features
 
 Using Angular front-end + Nest.Js Backend in my project, i provided these features:
-  -**Login/Register using JWT**
-  -**Add,remove students/grades**
-  -**See all students/grades**
-  -**Info: Random functionality: You can search the best student from every highschool for a selected subject (Ex: "Math")**
+  * **Login/Register using JWT**
+  * **Add,remove students/grades**
+  * **See all students/grades**
+  * **Info: Random functionality: You can search the best student from every highschool for a selected subject (Ex: "Math")**
 Backend features not implemented in front yet:
   -Add/Remove teachers etc.
 
@@ -70,17 +70,17 @@ List of technologies and tools used in this project:
 
 ## Project Structure
 
--Login/Register
-  -Students
-    -Add Student
-    -Remove Student
-    -See Students
-  -Grades
-    -Add Grade
-    -Update Grade
-    -See grades
-  -Infos
-    -Best student based on subject
+* Login/Register
+  * Students
+    * Add Student
+    * Remove Student
+    * See Students
+  * Grades
+    * Add Grade
+    * Update Grade
+    * See grades
+  * Infos
+    * Best student based on subject
 
 ### Login/Register Page:
 
