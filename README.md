@@ -1,4 +1,4 @@
-# Next Logic Project - Highschools manangement.
+# Highschools manangement.
 
 ## Table of Contents
 
