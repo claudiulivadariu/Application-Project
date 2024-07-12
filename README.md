@@ -89,8 +89,6 @@ You can also use:
 **username: admin**
 **password: admin**
 
-![image](https://github.com/claudiulivadariu/TestRepo/assets/79170970/eac511d4-a201-47ac-9c1b-4bf0af510ae6)
-
 ### Students Page:
 
 ![image](https://github.com/claudiulivadariu/TestRepo/assets/79170970/94ccf452-4ba4-4e72-aae0-a88fa71df84e)
